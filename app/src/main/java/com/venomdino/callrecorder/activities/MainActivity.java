@@ -436,11 +436,9 @@ public class MainActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-        if (requestCode != REQUEST_PERMISSION_CODE || grantResults.length < 3
+        if (requestCode != REQUEST_PERMISSION_CODE || grantResults.length < 2
                 || grantResults[0] != PackageManager.PERMISSION_GRANTED
                 || grantResults[1] != PackageManager.PERMISSION_GRANTED
-                || grantResults[2] != PackageManager.PERMISSION_GRANTED
-                || grantResults[3] != PackageManager.PERMISSION_GRANTED
         ) {
             Toast.makeText(this, "Please allow all permission", Toast.LENGTH_SHORT).show();
 
