@@ -397,7 +397,7 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.menu_settings_action) {
 
             Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
-            intent.putExtra("activity_started_by", BuildConfig.APPLICATION_ID);
+            intent.putExtra("activity_started_by", getPackageName());
             startActivity(intent);
             return true;
         } else {

@@ -21,15 +21,15 @@
 
     <string name="report_issue_text">Something went wrong. Please report this issue.</string>
 
-    <string name="github_release_page_link">https://github.com/HiddenPirates/Call-Recorder/releases</string>
-    <string name="github_release_tag_page_link">https://github.com/HiddenPirates/Call-Recorder/releases/tag/</string>
+    <string name="github_release_page_link">https://github.com/VenomDino/Android-Call-Recorder/releases</string>
+    <string name="github_release_tag_page_link">https://github.com/VenomDino/Android-Call-Recorder/releases/tag/</string>
 
-    <string name="app_issue_page_link">https://github.com/HiddenPirates/Call-Recorder/issues/</string>
-    <string name="more_apps_in_play_store">https://play.google.com/store/search?q=pub: Hidden Pirates&amp;c=apps</string>
-    <string name="website_link">https://hiddenpirates.com</string>
-    <string name="github_profile_link">https://github.com/HiddenPirates</string>
-    <string name="facebook_page_link">https://www.facebook.com/TeamHiddenPirates</string>
-    <string name="donation_page_link">https://donate.hiddenpirates.com</string>
+    <string name="app_issue_page_link">https://github.com/VenomDino/Android-Call-Recorder/issues/</string>
+    <string name="more_apps_in_play_store">https://play.google.com/store/search?q=pub: Creative Papa&amp;c=apps</string>
+    <string name="website_link">https://venomdino.github.io/portfolio</string>
+    <string name="github_profile_link">https://github.com/VenomDino</string>
+    <string name="facebook_page_link">https://t.me/CreativePapa</string>
+    <string name="donation_page_link">https://t.me/CreativePapa</string>
     <string name="app_info_page_opening_failed_message">Failed to open application setting info page. Please open app info page and allow all permissions manually from settings.</string>
 
 </resources>

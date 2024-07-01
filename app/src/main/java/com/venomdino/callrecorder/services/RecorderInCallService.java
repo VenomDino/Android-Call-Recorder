@@ -39,7 +39,7 @@ public class RecorderInCallService extends InCallService {
             public void onStateChanged(Call call, int state) {
                 super.onStateChanged(call, state);
 
-                if (state == Call.STATE_ACTIVE){
+                if (state == Call.STATE_ACTIVE) {
 
 
                     if (new SharedPrefs(sContext).isCallRecordingEnabled()) {
@@ -57,8 +57,7 @@ public class RecorderInCallService extends InCallService {
 
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
                             startForeground(1, notification, ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE);
-                        }
-                        else{
+                        } else {
                             startForeground(1, notification);
                         }
 
@@ -75,7 +74,9 @@ public class RecorderInCallService extends InCallService {
     public void onCallRemoved(Call call) {
         super.onCallRemoved(call);
 
-        recordingHelper.stopVoiceRecoding();
+        if (recordingHelper != null) {
+            recordingHelper.stopVoiceRecoding();
+        }
     }
 
 //    --------------------------------------------------------------------------------------

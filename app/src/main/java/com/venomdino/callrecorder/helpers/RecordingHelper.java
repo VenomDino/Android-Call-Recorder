@@ -86,8 +86,7 @@ public class RecordingHelper {
             if (new SharedPrefs(context).isStopRecordingToastEnabled()){
                 Toast.makeText(context, "Recording saved to: " + finalFileName, Toast.LENGTH_SHORT).show();
             }
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             Log.e(TAG, "stopVoiceRecoding:", e);
             recorder = null;
 
