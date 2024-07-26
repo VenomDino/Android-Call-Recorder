@@ -9,6 +9,8 @@
     app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight"
     android:clickable="true"
     android:focusableInTouchMode="true"
+    app:title="@string/app_name"
+    app:titleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
     android:focusable="true"
     android:layout_marginBottom="10dp">
 </androidx.appcompat.widget.Toolbar>
